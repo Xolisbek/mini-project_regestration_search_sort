@@ -1,0 +1,128 @@
+/* regestration and search button styles */
+.registration_or_search {
+  background-color: burlywood;
+  text-align: right;
+  padding-right: 150px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+.selectLi {
+  list-style: none;
+}
+.selectLi li {
+  display: inline-block;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-size: 25px;
+  cursor: pointer;
+}
+.noSelect {
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+/* regestration form styles */
+.form,
+.searchSectionDiv {
+  margin: 0 20%;
+  padding: 20px 10px 30px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.37),
+    -10px -10px 12px rgba(255, 255, 255, 0.842);
+  background: #ecf0f3;
+}
+.form input,
+.searchInp,
+.selectFilter {
+  display: block;
+  width: 90%;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 25px;
+  padding: 5px 10px;
+  border: none;
+  box-sizing: border-box;
+  margin: 20px auto;
+  box-shadow: inset 9px 9px 9px #3f3f3f75, inset -8px -8px 8px white;
+  background: #ecf0f3;
+  color: black;
+}
+.form .submit,
+.selectFilter {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.form .submit:hover,
+.selectFilter:hover {
+  background-color: rgb(89%, 91%, 92%);
+  cursor: pointer;
+}
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+}
+/* result table styles */
+.tableDiv {
+  width: 80%;
+  margin: 50px auto 0;
+  padding: 20px 40px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-radius: 0.75rem;
+  background-color: #89c4b8;
+}
+.regTable {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.regTable tr {
+  border-bottom: 1px solid #dddddd;
+  background-color: #009879;
+  color: #fff;
+  text-align: left;
+}
+.regTable tr:nth-of-type(even) {
+  background-color: #71e5c3;
+}
+.regTable tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.regTable tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+.regTable td,
+th {
+  padding: 0.6rem 0.75rem;
+}
+.regTable .thead {
+  background-color: #004832;
+  border-bottom: 2px solid #dddddd;
+}
+/* warningMessage styles */
+.warningMessage {
+  color: red;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* searchSectionDiv styles */
+.searchInp {
+  display: inline-block;
+  width: 60%;
+  text-align: left;
+  margin-right: 6%;
+}
+.selectFilter {
+  display: inline-block;
+  width: 30%;
+}
