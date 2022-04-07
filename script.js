@@ -187,17 +187,17 @@ function createInterface(sel) {
         selectFilter.appendChild(optionFilter1);
         // 2-optionni yasash
         let optionFilter2 = createElem("option");
-        optionFilter2.textContent = "search by name";
+        optionFilter2.textContent = "sort by name";
         optionFilter2.setAttribute("value", "name");
         selectFilter.appendChild(optionFilter2);
         // 3-optionni yasash
         let optionFilter3 = createElem("option");
-        optionFilter3.textContent = "search by surName";
+        optionFilter3.textContent = "sort by surName";
         optionFilter3.setAttribute("value", "surName");
         selectFilter.appendChild(optionFilter3);
         // 4-optionni yasash
         let optionFilter4 = createElem("option");
-        optionFilter4.textContent = "search by age";
+        optionFilter4.textContent = "sort by age";
         optionFilter4.setAttribute("value", "age");
         selectFilter.appendChild(optionFilter4);
       }
