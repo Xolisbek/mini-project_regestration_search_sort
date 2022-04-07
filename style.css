@@ -16,6 +16,9 @@
   font-size: 25px;
   cursor: pointer;
 }
+.selectLi li:hover {
+  color: red;
+}
 .noSelect {
   color: red;
   font-size: 30px;
